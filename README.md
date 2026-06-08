@@ -13,11 +13,7 @@ artifact modelling and a two-stage weighted refinement procedure.
 
 ## Overview
 
-<!-- INSERT OVERVIEW FIGURE HERE -->
-<!-- Suggested: a multi-panel figure showing (1) a raw artifact-corrupted EDA signal,
-     (2) the decomposed phasic/tonic/artifact components, and (3) a comparison
-     between standard cvxEDA and this method. Save the image as docs/overview.png
-     and uncomment the line below. -->
+Application of our algorithm (orange solid line) and cvxEDA (black dashed line) to an exemplary SC times series of 90 second in length (gray solid line) recorded with the Embrace Plus wrist sensor. Top: the SC time series, together with the reconstruction provided by our algorithm and cvxEDA; Middle: the phasic (solid lines) and the tonic (dashed lines) component obtained from our algorithm and cvxEDA, together with the two artifact components r_2 and r_3 (green and purple solid lines) and the accelerometers magnitude (gray); the estimated SMNA driver p_1 from both our algorithm and cvxEDA, along with artifact drivers p_2 and p_3. Bottom: our algorithm and cvxEDA SMNA drivers p_1, together with the artifact drivers p_2 and p_3.
 [Framework overview](docs/overview.png)
 
 EDA signals recorded with wrist-worn or hand-worn sensors are frequently
