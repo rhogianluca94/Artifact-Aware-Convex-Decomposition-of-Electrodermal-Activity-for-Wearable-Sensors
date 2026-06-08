@@ -18,7 +18,7 @@ artifact modelling and a two-stage weighted refinement procedure.
      (2) the decomposed phasic/tonic/artifact components, and (3) a comparison
      between standard cvxEDA and this method. Save the image as docs/overview.png
      and uncomment the line below. -->
-<!-- ![Framework overview](docs/overview.png) -->
+[Framework overview](docs/overview.png)
 
 EDA signals recorded with wrist-worn or hand-worn sensors are frequently
 corrupted by motion artifacts caused by hand movements. Standard convex
