@@ -13,9 +13,6 @@ artifact modelling and a two-stage weighted refinement procedure.
 
 ## Overview
 
-Application of our algorithm (orange solid line) and cvxEDA (black dashed line) to an exemplary SC times series of 90 second in length (gray solid line) recorded with the Embrace Plus wrist sensor. Top: the SC time series, together with the reconstruction provided by our algorithm and cvxEDA; Middle: the phasic (solid lines) and the tonic (dashed lines) component obtained from our algorithm and cvxEDA, together with the two artifact components r_2 and r_3 (green and purple solid lines) and the accelerometers magnitude (gray); the estimated SMNA driver p_1 from both our algorithm and cvxEDA, along with artifact drivers p_2 and p_3. Bottom: our algorithm and cvxEDA SMNA drivers p_1, together with the artifact drivers p_2 and p_3.
-![Framework overview](docs/overview.png)
-
 EDA signals recorded with wrist-worn or hand-worn sensors are frequently
 corrupted by motion artifacts caused by hand movements. Standard convex
 decomposition methods treat these artifacts as residuals, which degrades the
@@ -35,6 +32,9 @@ The core optimization problem (Eq. 14 of the paper) simultaneously estimates
 the phasic component, the tonic component, a linear drift term, and two
 artifact components (negative and positive), all within a single convex
 quadratic program solved via `quadprog`.
+
+Exemplary application of our algorithm (orange solid line) and cvxEDA (black dashed line) to an exemplary SC times series of 90 second in length (gray solid line) recorded with the Embrace Plus wrist sensor. Top: the SC time series, together with the reconstruction provided by our algorithm and cvxEDA; Middle: the phasic (solid lines) and the tonic (dashed lines) component obtained from our algorithm and cvxEDA, together with the two artifact components `r2` and `r3` (green and purple solid lines) and the accelerometers magnitude (gray); the estimated SMNA driver `p1` from both our algorithm and cvxEDA, along with artifact drivers `p2` and `p3`. Bottom: our algorithm and cvxEDA SMNA drivers `p1`, together with the artifact drivers `p2` and `p3`.
+![Framework overview](docs/overview.png)
 
 ---
 
