@@ -42,7 +42,7 @@ function [r, p, t, l, d, e, p2, r2, p3, r3, obj] = weighted_deconv(y, delta, var
 % Last revised:                 06 June 2026 
 % ______________________________________________________________________________
 %
-% Copyright (C) 2025-2026 Gianluca Rho, Luca Citi, Alberto Greco
+% Copyright (C) 2025-2026 Gianluca Rho, Luca Citi, Enzo Pasquale Scilingo, Alberto Greco
 %
 % This program is free software; you can redistribute it and/or modify it under
 % the terms of the GNU General Public License as published by the Free Software
