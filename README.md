@@ -198,7 +198,7 @@ If you use this code in published research, please cite all relevant works below
 
 ## License
 
-Copyright (C) 2025–2026 Gianluca Rho, Luca Citi, Alberto Greco
+Copyright (C) 2025–2026 Gianluca Rho, Luca Citi, Enzo Pasquale Scilingo, Alberto Greco
 
 This program is free software: you can redistribute it and/or modify it
 under the terms of the GNU General Public License as published by the Free
