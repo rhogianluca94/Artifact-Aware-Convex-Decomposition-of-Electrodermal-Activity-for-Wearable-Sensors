@@ -7,7 +7,7 @@ artifact modelling and a two-stage weighted refinement procedure.
 
 > **Paper:** G Rho, L Citi, EP Scilingo, and A Greco —
 > *"Artifact Aware Convex Decomposition of Electrodermal Activity for Wearable Sensors"*,
-> submitted to IEEE Journal of Biomedical Health and Informatics, 2026.
+> under review to IEEE Journal of Biomedical Health and Informatics, 2026.
 
 ---
 
