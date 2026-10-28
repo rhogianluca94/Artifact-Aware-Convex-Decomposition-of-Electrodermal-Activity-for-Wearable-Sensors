@@ -70,7 +70,7 @@ artifact_cvxEDA/
 ```matlab
 % Load or generate your EDA signal, then normalize
 y = zscore(your_eda_signal);
-delta = 1/50;   % sampling interval in seconds (here: 50 Hz)
+delta = 1/50;   % sampling interval in seconds (50 Hz is recommended)
 
 % Run the two-stage artifact-aware deconvolution with default parameters
 [r, p, t, l, d, e, p2, r2, p3, r3, obj] = weighted_deconv(y, delta);
@@ -100,7 +100,7 @@ delta = 1/50;   % sampling interval in seconds (here: 50 Hz)
 | Parameter | Default | Description |
 |-----------|---------|-------------|
 | `y` | — | Observed EDA signal. Normalize with `zscore` before passing. |
-| `delta` | — | Sampling interval in seconds. |
+| `delta` | 1/50 | Sampling interval in seconds. |
 | `alpha1` | `8e-4` | Penalization for the phasic SMNA driver (both stages). |
 | `alpha2` | `5e-1` | Penalization for the negative artifact driver. |
 | `alpha3` | `5e-1` | Penalization for the positive artifact driver. |
