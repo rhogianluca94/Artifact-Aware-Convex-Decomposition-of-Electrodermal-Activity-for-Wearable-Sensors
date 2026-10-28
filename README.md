@@ -7,7 +7,9 @@ artifact modelling and a two-stage weighted refinement procedure.
 
 > **Paper:** G Rho, L Citi, EP Scilingo, and A Greco —
 > *"Artifact Aware Convex Decomposition of Electrodermal Activity for Wearable Sensors"*,
-> under review to IEEE Journal of Biomedical Health and Informatics, 2026.
+> under review at IEEE Journal of Biomedical Health and Informatics, 2026.
+
+**Note:** the manuscript associated with the shared code is currently under its second-stage of revision at IEEE JBHI. Please, send me an email at gianluca.rho@ing.unipi.it to request a copy of the manuscript. 
 
 ---
 
@@ -178,7 +180,7 @@ If you use this code in published research, please cite all relevant works below
 
 > G Rho, L Citi, EP Scilingo, and A Greco
 > "Artifact Aware Convex Decomposition of Electrodermal Activity for Wearable Sensors"
-> *Submitted to IEEE Journal of Biomedical Health and Informatics*, 2026
+> *Under review at IEEE Journal of Biomedical Health and Informatics*, 2026
 
 #### Original cvxEDA algorithm
 
